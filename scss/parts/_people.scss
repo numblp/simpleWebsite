@@ -1,0 +1,42 @@
+.people {
+    background-image: url("../../img/peoplebg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 200px;
+    
+    &__article {
+        display: flex;
+    }
+
+    .people-box {
+        background-color: $color-black;
+        padding: 50px 60px;
+
+        .fa-quote-left {
+            color: $color-blue;
+            float: left;
+            padding-right: 10px;
+        }
+    }
+
+    &__name {
+        text-transform: uppercase;
+        font-weight: 400;
+        margin-bottom: 30px;    
+    }
+
+    &__title {
+        font-size: 36px;
+        font-weight: 400;
+        font-family: $font-aleo;
+        padding: 115px 0 100px;
+        text-align: center;
+    }
+    
+
+    &__discription {
+        padding-top: 10px;
+    }
+
+}

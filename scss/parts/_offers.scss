@@ -1,0 +1,32 @@
+.offers--second {
+    background-image: url("../../img/contentbg2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 230px 0 100px;
+
+    .row {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__content {
+        width: 100%;
+        background-color: rgba(35, 35, 35, 0.9);
+        padding: 50px 30px;
+    }
+
+    &__title {
+        margin-bottom: 30px;
+    }
+
+    &__discription {
+        margin-bottom: 45px;
+    }
+
+    &__title--big {
+        text-transform: uppercase;
+    }
+}
+
+  

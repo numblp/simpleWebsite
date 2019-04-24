@@ -1,0 +1,22 @@
+@import "variables";
+@import "mixins";
+
+
+// common
+@import "common/general";
+@import "common/typography";
+
+
+
+// elements
+@import "elements/nav";
+@import "elements/btn--link";
+@import "elements/content";
+
+// parts
+@import "parts/hero";
+@import "parts/why-choose-us";
+@import "parts/searchplace";
+@import "parts/offers";
+@import "parts/people";
+@import "parts/footer";

@@ -1,0 +1,79 @@
+.hero {
+    text-align: center;
+    padding-top: 240px;
+
+    &__title {
+        font-size: 48px;
+        text-transform: uppercase;
+        letter-spacing: 4.8px;
+        margin-bottom: 5px;
+    }
+
+    &__discription {
+        display: block;
+        font-size: 22px;
+        font-weight: 300;
+        letter-spacing: 6px;
+        margin-bottom: 50px;
+    }
+
+    &__search {
+        display: block;
+        position: relative;
+    }
+
+    &__input {
+        width: 650px;
+        padding: 20px 120px;
+        color: $color-grey;
+        margin-bottom: 120px;
+
+        &::placeholder {
+            font-size: 14px;
+            letter-spacing: 2.8px;
+            color: $color-grey;
+        }
+
+    }
+
+    &__btn {
+        position: absolute;
+        display: flex;
+        left: 746px;
+        top: 3px;
+        height: 55px;
+        padding: 0 25px 0 35px;
+        font-size: 14px;
+        font-family: $font-aleo;
+        text-transform: uppercase;
+        color: $color-white;
+        border: none;
+        background-color: $color-blue;
+        align-items: center;
+        cursor: pointer;
+        
+        .icon-search1 {
+            padding-left: 20px;
+            width: 40px;
+        }
+    }
+
+    &__scroll {
+
+        a {
+            display: inline-block;
+            font-size: 14px;
+            color: $color-white;
+            letter-spacing: 2.8px;
+            text-decoration: none;
+            font-weight: 300;
+        }
+
+        .fa-chevron-down {
+            display: block;
+            margin-bottom: 135px;
+        }
+        
+    }
+
+}

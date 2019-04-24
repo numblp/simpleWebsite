@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-josefin;
+    font-size: 16px;
+    color: $color-white;
+    // margin: 15px;
+}
+
+p {
+    line-height: 26px;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: $color-white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.header {
+    background-image: url("../../img/herobg.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.grid {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row {
+    margin: 0 -15px;
+}
+
+[class^="col-1-"] {
+    padding: 0 15px;
+}
+
+.col-1-2 {
+    width: 50%;
+}
